@@ -109,7 +109,7 @@
 .content3 p
 {
 	width: 100%;
-	text-align: justify;
+	/*text-align: justify;*/
 	font-size: 18px;
 	line-height: 31px;
 	margin-top: 20px;

@@ -130,9 +130,11 @@
 .content3 p
 {
 	width: 100%;
-	text-align: justify;
+	/*background: blue;*/
+	/*text-align: center;*/
 	font-size: 18px;
-	line-height: 31px;
+	line-height: 25px;
+	/*margin-left: 30px;*/
 	margin-top: 20px;
 }
 
