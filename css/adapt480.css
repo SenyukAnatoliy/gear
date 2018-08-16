@@ -12,7 +12,7 @@
 }
 button
 {
-	top: 370px;
+	top: 45%;
 }
 .header .menu
 {
@@ -51,7 +51,7 @@ button
 }
 .content2 p
 {
-	width: 420px;
+	width: 85%;
 }
 
 .content2 .box
@@ -82,11 +82,12 @@ button
 }
 .content3 .text
 {
-	width: 80%;
+	width: 74%;
 	height: 70px;
 	/*background: red;*/
 	text-align: center;
 	margin-top: 0px;
+	margin-left: 15%;
 	padding-top: 40px;
 }
 .content3 h1
@@ -96,7 +97,7 @@ button
 }
 .content3 p
 {
-	width: 350px;
+	width: 90%;
 	font-size: 14px;
 	line-height: 25px;
 	margin-top: 20px;
@@ -119,7 +120,7 @@ button
 }
 .content4 .text
 {
-	width: 450px;
+	width: 90%;
 	height: 370px;
 	/*background: red;*/
 	margin:40px auto;
@@ -189,8 +190,8 @@ button
 	/*display: none;*/
 	position: absolute;
 	top: 1650px;
-	left: calc(50% - 250px);
-	width: 500px;
+	left: 0;
+	width: 100%;
 	height: 450px;
 	/*background: red;*/
 	z-index: 10;
@@ -260,6 +261,7 @@ button
 	text-align: left;
 	margin-top: 300px;
 }
+.content6 .text p {width: 100%;}
 .content6 .text2
 {
 	width: 80%;
@@ -267,6 +269,10 @@ button
 	/*background: red;*/
 	position: absolute;
 	left: 10%;
+}
+.content6 .text2 p
+{
+	width: 100%;
 }
 /*content6_5======================*/
 .content6_5
