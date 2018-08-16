@@ -7,12 +7,12 @@
 }
 	.text
 {
-	padding-top: 100px;
+	padding-top: 30%;
 	padding-bottom: 100px;
 }
 .text button
 {
-	top: 55%;
+	margin-top: 20%;
 }
 .header .menu
 {
@@ -32,7 +32,7 @@
 /*content2======================*/
 .conteiner	
 {
-	height: 800px;
+	height: 1500px;
 	background: white;
 	
 }
@@ -53,13 +53,27 @@
 {
 	width: 85%;
 }
-
+.box img
+{
+	/*width: 50%;*/
+}
 .content2 .box
 {
 	width: 100%;
-	height: 490px;
+	height: 890px;
 	/*background: blue;*/
-	padding-top: 0px;
+	padding-top: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+/*.content2 .box
+{
+	width: 100%;
+	height: 490px;
+	/*background: blue;
+	padding-top: 0px;*/
 }
 .content2 .box img
 {

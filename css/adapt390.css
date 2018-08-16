@@ -32,7 +32,7 @@
 /*content2======================*/
 .conteiner	
 {
-	height: 800px;
+	height: 1400px;
 	background: white;
 	
 }
@@ -53,14 +53,24 @@
 {
 	width: 85%;
 }
-
 .content2 .box
+{
+	width: 100%;
+	height: 890px;
+	/*background: blue;*/
+	padding-top: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+/*.content2 .box
 {
 	width: 100%;
 	height: 490px;
 	/*background: blue;*/
-	padding-top: 0px;
-}
+	/*padding-top: 0px;*/
+}*/
 .content2 .box img
 {
 	width: 100%;
@@ -224,7 +234,7 @@
 }
 .content6 img
 {
-	/*display: none;*/
+	displ/*a*/y: none;
 	width: 90%;
 	position: absolute;
 	top: 0;
@@ -232,9 +242,11 @@
 }
 .content6 .im2
 {
+	/*display: none;*/
 	width: 90%;
 	position: absolute;
 	left: 0;
+	margin-top: 10%;
 	top: 800px;
 }
 .content6 h1

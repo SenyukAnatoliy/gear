@@ -181,6 +181,7 @@ button:active
 	height: 1000px;
 	background: white;
 	/*margin-bottom: 40px;*/
+	overflow: hidden;
 }
 .content2 h3
 {

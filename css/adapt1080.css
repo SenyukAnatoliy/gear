@@ -53,4 +53,10 @@
 	text-align: left;
 	/*border-left: 2px solid red*/
 }
+.content2 p
+{
+	width: 90%;
+	/*background: red;*/
+
+}
 }
