@@ -55,7 +55,7 @@
 }
 .box img
 {
-	/*width: 50%;*/
+	width: 90%;
 }
 .content2 .box
 {
@@ -68,12 +68,13 @@
 	justify-content: space-around;
 	align-items: center;
 }
-/*.content2 .box
+.content2 .box
 {
 	width: 100%;
-	height: 490px;
+	/*height: 490px;*/
+}
 	/*background: blue;
-	padding-top: 0px;*/
+	padding-top: 0px;
 }
 .content2 .box img
 {
@@ -92,6 +93,7 @@
 }
 .content3 img
 {
+	/*display: none;*/
 	width: 80%;
 }
 .content3 .text
