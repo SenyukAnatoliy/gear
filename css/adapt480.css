@@ -181,7 +181,7 @@ button
 	width: 55%;
 	position: absolute;
 	/*top: 1600px;*/
-	left: 115px
+	left: 25%
 	
 	/*background: red*/
 }
@@ -215,6 +215,7 @@ button
 }
 .content6 .music h1
 {
+	width: 100%;
 	font-family: SamsungSharpSansBd;
 	color: #363636;
 	margin-top: -130px;
@@ -237,7 +238,7 @@ button
 }
 .content6 h1
 {
-	width: 460px;
+	width: 90%;
 	font-family: SamsungSharpSansBd;
 	font-size: 46px;
 	color: #363636;
