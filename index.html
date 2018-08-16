@@ -6,11 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gamb.css">
    <link rel="stylesheet" href="css/adapt480.css">
    <link rel="stylesheet" href="css/adapt390.css">
    <link rel="stylesheet" href="css/adapt360.css">
    <!-- <link rel="stylesheet" href="css/adapt1080.css"> -->
    <script src="js/video.js"></script>
+   <script src="js/gamb.js"></script>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <script src="js/wow.min.js"></script>
@@ -19,10 +21,19 @@
   </script>
    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script src="js/go_top.js"></script>
-
+<script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+  
    <div class="wrapper">
+<div class="section">
+  <a class="menu-btn" onclick="toggleMenu();">
+    <span></span>
+  </a>
+
+</div>
+
      <a href="#" id="go-top" title="Вверх">
       <i class="fa fa-arrow-up" aria-hidden="true"></i>
    </a>
@@ -39,6 +50,7 @@
                   <li><a href="#yak4">ADVANTAGES</a></li>
                   <li><a href="#yak5">SPECS</a></li>
                </ul>
+               <!-- <div class="hamburger" onclick="toggleMenu();"></div> -->
             </div>
          </div>
       <div class="content1">
@@ -143,7 +155,8 @@
       </footer>
    </div>   
    <!-- SCRIPTS==================================-->
-
+<script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script type="text/javascript">
  $(document).ready(function(){
     $("#menu").on("click","a", function (event) {
