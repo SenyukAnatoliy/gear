@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1080px)
+{ 
+.logo
+{
+	display: none;
+}
+.menu
+{
+	width: 90%;
+	/*background: green;*/
+	margin: auto;
+	
+}
+.content3 img
+{
+	width: 40%;
+}
+.content4 img
+{
+	width: 40%;
+}
+.content6 img
+{
+	width: 40%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.content6 .im2
+{
+	position: absolute;
+	left: 0;
+	top: 700px;
+}
+.content6 .im 
+{
+	width: 100%;
+}
+.lf
+{
+	position: absolute;
+	left: -100px;
+	margin-top: 200px;
+	z-index: -10;
+}
+
+}

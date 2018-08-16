@@ -113,7 +113,7 @@ button:active
 }
 .menu
 {
-	width: 780px;
+	width: 50%;
 	height: 70px;
 	/*background: green;*/
 	float: right;
@@ -234,6 +234,7 @@ button:active
 	position: absolute;
 	right: 0;
 	bottom: 0;
+	/*z-index: -10*/
 }
 .content3 .text
 {
@@ -242,6 +243,7 @@ button:active
 	/*background: red;*/
 	text-align: left;
 	margin-top: 130px;
+
 }
 .content3 h1
 {
@@ -389,7 +391,7 @@ button:active
 .lf
 {
 	position: absolute;
-	left: -160px;
+	left: -140px;
 	margin-top: 200px;
 	z-index: -10;
 }
